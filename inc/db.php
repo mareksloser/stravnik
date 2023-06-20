@@ -1,8 +1,8 @@
 <?php
 	//---heslo SkU2KMUq , https://sql.sps-prosek.cz/phpmyadmin/
-	define('DB_NAME', 'hbwhcz_stravnik');
-	define('DB_USER', 'hbwhcz_stravnik');
-	define('DB_PASSWORD', 'sloser89marek');
+	define('DB_NAME', '');
+	define('DB_USER', '');
+	define('DB_PASSWORD', '');
 	define('DB_HOST', '127.0.0.1');
 
 	global $db;
