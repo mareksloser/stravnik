@@ -1,0 +1,108 @@
+html {
+    background-color: #e5e5e5;
+}
+
+body {
+    height: 100vh;
+}
+
+hr {
+    border-top: 1px solid gray;
+}
+
+.page-content {
+    background-color: white;
+    width: 80%;
+    min-height: 300px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/* . se před main-headline píše proto, že v index.php máme class="main-headline" */
+.main-headline {
+    text-align: center;
+}
+
+/* # se před form-poll píše proto, že v index.php máme id="form-poll", ID můžeme na stránce použít jen jednou, jinak je to problém. */
+.form {
+
+}
+
+.form-control {
+    margin-bottom: 28px;
+}
+
+.form-label {
+    font-weight: bold;
+    min-width: 100px;
+    display: inline-block;
+}
+
+.form-input, .form-select {
+
+}
+
+.error-msg {
+    display: block;
+    color: red;
+}
+
+.info-msg {
+    display: block;
+    color: green;
+}
+
+/* food_list */
+.food_list {
+
+}
+
+.food_list table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.food_list tr {
+    border-bottom: 1px solid #ddd;
+}
+/* nth-child(even) způsobí, že ob řádek bude platit, že má upravit barvu pozadí pomocí background-color */
+.food_list tr:nth-child(even) {
+    background-color: #E7E9EB;
+}
+/* hover způsobí, že ob se změní pozadí po najetí myší nad element tr */
+.food_list tr:hover {
+    background-color: #ededed;
+}
+
+.food_list th {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #355aad;
+    color: white;
+}
+
+.food_list th, .food_list td {
+    text-align: left;
+    padding: 8px;
+    vertical-align: top;
+}
+
+/* Odkazy upravit a smazat */
+.edit {
+    color: green;
+    text-decoration: none;
+}
+
+.edit:hover {
+    text-decoration: underline;
+}
+
+.delete {
+    color: red;
+    text-decoration: none;
+}
+
+.delete:hover {
+    text-decoration: underline;
+}
